@@ -7,13 +7,59 @@
 body{
     background-color: #F6F8F9;
 }
+#style-header-logo{
+    background-color: white;
+}
+
+#logo-img{
+    margin: 10px 20px;
+}
+
+.todo-add-task{
+    display: inline-block;
+    background-color: #09A9ED;
+    padding: 5px 13px;
+    font-size: 14px;
+    border-radius: 5px;
+    margin-bottom: 8px;
+}
+
+div #todo-add-section{
+    background-color: white;
+    border: 1px solid #E0E4E6;
+}
+
+nav{
+    background-color: white;
+    width: 1400px;
+    margin: 35px auto 0 auto;
+    border-radius: 10px;
+    padding: 15px 5px 5px 50px;
+}
+
 
 main{
     background-color: white;
-    width: 980px;
-    margin: 10px auto 0 auto;
+    width: 1400px;
+    margin: 2px auto 0 auto;
     border-radius: 10px;
     padding: 15px 50px 50px 50px;
+}
+
+.title{
+    margin-top: 30px;
+}
+
+.format-title{
+    display: inline-block;
+    font-size: 20px;
+    color: #333;
+    font-weight: normal;
+    font-family: arial, sans-serif;
+}
+
+.todo-item{
+    margin:10px 0px 15px;
 }
 
 .todo-item-text{
@@ -33,9 +79,36 @@ main{
     line-height: 24px;
 }
 
+.todo-cross-icon{
+    color: red;
+    border: 1px solid red;
+
+}
+
 .todo-item-tag{
     background-color: #09A9ED;
+    color: white;
     border-radius: 50px;
     padding: 5px 13px;
     font-size: 12px;
+}
+
+.todo-item-q1{
+    background-color: #AB5DE6;
+}
+
+.todo-item-recruting{
+    background-color: #2CC6AB;
+}
+
+.todo-item-mobile{
+    background-color: #FF9B00;
+}
+
+.todo-item-website{
+    background-color: #EC4A9D;
+}
+
+.todo-item-sales{
+    background-color: #A3D116;
 }

@@ -29,22 +29,19 @@ div #todo-add-section{
     border: 1px solid #E0E4E6;
 }
 
-nav{
-    background-color: white;
-    width: 950px;
-    margin: 35px auto 0 auto;
-    border-radius: 10px;
-    padding: 15px 5px 5px 50px;
-}
 
-
-main{
+.container{
     background-color: white;
     width: 950px;
     margin: 2px auto 0 auto;
     border-radius: 10px;
-    padding: 15px 50px 50px 50px;
+    padding: 10px 50px 5px 50px;
 }
+
+nav.container{
+    margin-top: 60px;
+}
+
 
 .title{
     margin-top: 30px;

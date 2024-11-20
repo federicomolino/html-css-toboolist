@@ -112,3 +112,7 @@ main{
 .todo-item-sales{
     background-color: #A3D116;
 }
+
+ul{
+    list-style-type: none;
+}
